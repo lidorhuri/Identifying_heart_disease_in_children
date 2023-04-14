@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="StyleTwo.css">
+        <script src="asyncClient.js"></script>
+        
+        <title>Result Page</title>
+    </head>
+    <body>
+        <div class="mainblock">
+            <h1 id="myElement"><br><a href="index.html" target="_self">Check again</a></h1>
+        </div>
+    </body>
+</html>
+
+<script>
+let cookiesIsSick = getCookie("IsSick");
+//alert(cookiesIsSick)
+
+
+let containerCookie = document.getElementById("myElement");
+let mySick = document.createElement("p");
+
+if (cookiesIsSick) {
+  mySick.textContent = cookiesIsSick;
+} else {
+  mySick.textContent = "No cookie found";
+  }
+  let finalRes;
+   if (cookiesIsSick == "0") {
+        mySick.textContent = "Your chances of getting sick are low!";
+    } else {
+        mySick.textContent = "Unfortunately you have chances of getting sick.";
+
+    }
+    
+  containerCookie.appendChild(mySick);
+
+</script>

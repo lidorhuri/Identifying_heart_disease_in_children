@@ -1,0 +1,83 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 22 בפבר׳ 2023, 12:50:48
+    Author     : לידור
+*/
+
+body{
+    width: 50%;
+    height: 802px;
+    margin: auto;
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+    border-bottom: black solid 1px;
+    border-top: black solid 1px;
+}
+
+h1{
+    text-align: center;
+    font-family: "Arial";
+    color: green;
+}
+
+.mainblock{
+    position: absolute;
+    height: 802px;
+    width: 50%;
+
+    background-color: darkseagreen;
+}
+
+.addbutton{
+    color: white;
+    width:  352px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: red;
+    border-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1% 30%;
+}
+
+.addbutton:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.searchbutton{
+    color: white;
+    width:  352px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: red;
+    border-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1% 30%;
+}
+
+.searchbutton:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.donebutton{
+    color: white;
+    width:  352px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: red;
+    border-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1% 30%;
+}
+
+.donebutton:hover {
+    background-color: darkred;
+    color: white;
+}

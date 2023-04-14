@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="StyleOne.css">
+        <script src="asyncClient.js"></script>
+
+        
+        <title>index Page</title>
+    </head>
+    <body>
+        <div class="top">
+            <div class="left"></div>
+            <div class="center"> 
+                <div class="login">Heart diseases</div>
+            </div>
+            <div class="right"></div>
+
+        </div>
+        <div class="middle">
+            <div class="LogRegBlock">
+                <div class="frame" style="overflow: auto;">
+                    <form method="post" action="">
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your Income (1-13)" min=1 max=8 required>
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your Education (1-6)"  min=1 max=6 required>
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your Age (1-13)" min=1 max=13 required>
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your Sex (0/1)" min=0 max=1 required>
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your DiffWalk (0/1)" min=0 max=1 required>
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your PhysHlth (0-30)" min=0 max=30 required>
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your MentHlth (0-30)" min=0 max=30 required>
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your GenHlth (1-5)"  min=0 max=5 required>
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your AnyHealthcare (0/1)" min=0 max=1 required>
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your HvyAlcoholConsump (0/1)" min=0 max=1 required>
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your Veggies (0/1)" min=0 max=1 required>
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your Fruits (0/1)" min=0 max=1 required>
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your PhysActivity (0/1)" min=0 max=1 required>
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your Diabetes (0/1/2)" min=0 max=2 required>
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your Stroke (0/1)" min=0 max=1 required>
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your Smoker (0/1)" min=0 max=1 required>
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your BMI (12 - 98)" min=12 max=98 required>
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your HighChol (0/1)" min=0 max=1 required>
+                        <input class="textarea" type="number" name="dataInfo" placeholder="Enter your HighBP (0/1)" min=0 max=1 required>
+                        <input class="button" type="button" onclick="sendData()" value="Check Result">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
